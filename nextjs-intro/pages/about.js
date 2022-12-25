@@ -2,8 +2,14 @@
 //     return "about us";
 // }
 
+import NavBar from "../components/NavBar";
+
 const About = () => {
-  return "about us";
+  return (
+    <div>
+      <NavBar></NavBar>about us
+    </div>
+  );
 };
 
 export default About;
